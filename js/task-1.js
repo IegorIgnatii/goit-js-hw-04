@@ -1,8 +1,4 @@
-debugger;
-
 function isEnoughCapacity(products, containerSize) {
-  debugger;
-
   let totalSum = 0;
 
   for (const key in products) {
