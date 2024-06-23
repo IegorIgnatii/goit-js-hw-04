@@ -1,7 +1,6 @@
 function calcAverageCalories(days) {
   let totalCalories = 0;
   for (let property of days) {
-    console.log(property);
     totalCalories += property.calories;
   }
   return totalCalories / days.length;
